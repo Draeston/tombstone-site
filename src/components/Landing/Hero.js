@@ -1,4 +1,4 @@
-import styles from "../../assets/styles/Landing/Hero.css";
+import styles from "../../assets/styles/Landing/Hero.module.css";
 
 export function Hero () {
     return (

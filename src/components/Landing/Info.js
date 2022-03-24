@@ -1,4 +1,4 @@
-import styles from "../../assets/styles/Landing/Info.css";
+import styles from "../../assets/styles/Landing/Info.module.css";
 
 export function Info () {
     return (

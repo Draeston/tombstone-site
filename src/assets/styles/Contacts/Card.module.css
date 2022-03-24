@@ -1,0 +1,14 @@
+.card {
+    padding: 10px;
+    display: inline-block;
+    width: 30%;
+    margin-right: 3%;
+}
+
+.img {
+    width: 50px;
+}
+
+.textWrapper {
+    display: inline-block;
+}

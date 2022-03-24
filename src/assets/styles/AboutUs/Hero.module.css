@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@200;300;400&display=swap');
 
-.info {
-    background: url("../../images/AboutUs/info.jpg") no-repeat;
+.hero {
+    background: url("../../images/AboutUs/hero.jpg") no-repeat;
     background-position-y: 80%;
     background-size: cover;
     position: relative;
     padding: 50px;
 
-    min-height: 500px;
+    min-height: 300px;
 }
 
-.info-text {
+.heroText {
     font-family: 'IBM Plex Sans Arabic', sans-serif;
     font-size: 24px;
     color: white;

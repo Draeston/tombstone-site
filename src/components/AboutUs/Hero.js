@@ -1,4 +1,4 @@
-import styles from  "../../assets/styles/AboutUs/Hero.css"
+import styles from  "../../assets/styles/AboutUs/Hero.module.css"
 
 export function Hero () {
     return (

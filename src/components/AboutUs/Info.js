@@ -1,4 +1,4 @@
-import styles from "../../assets/styles/AboutUs/Info.css"
+import styles from "../../assets/styles/AboutUs/Info.module.css"
 
 export function Info () {
     return (

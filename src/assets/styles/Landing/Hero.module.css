@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@200;300;400&display=swap');
 
 .hero {
-    background: url("../../images/AboutUs/hero.jpg") no-repeat;
+    background: url("../../images/Landing/tombstone-hero.jpg") no-repeat;
     background-position-y: 80%;
     background-size: cover;
     position: relative;
@@ -10,7 +10,8 @@
     min-height: 300px;
 }
 
-.hero-text {
+/* There I don't follow BEM, because it's inefficient */
+.heroText {
     font-family: 'IBM Plex Sans Arabic', sans-serif;
     font-size: 24px;
     color: white;
