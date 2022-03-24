@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300;1,400&display=swap');
+
+.question {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.answer {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 30px;
+}
