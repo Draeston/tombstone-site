@@ -1,18 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@200;300;400&display=swap');
+/*noinspection CssUnknownTarget*/
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@200;300;400&display=swap");
 
 .info {
-    background: url("../../images/Landing/tombstone-info-block.jpg") no-repeat;
-    background-position-y: 80%;
-    background-size: cover;
-    position: relative;
-    padding: 50px;
+  background: url("../../images/Landing/tombstone-info-block.jpg") no-repeat;
+  background-position-y: 80%;
+  background-size: cover;
+  position: relative;
+  padding: 50px;
 
-    min-height: 300px;
+  min-height: 300px;
 }
 
 .infoText {
-    font-family: 'IBM Plex Sans Arabic', sans-serif;
-    font-size: 24px;
-    color: white;
-    text-align: center;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  font-size: 24px;
+  color: white;
+  text-align: center;
 }

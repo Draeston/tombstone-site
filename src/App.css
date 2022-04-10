@@ -1,3 +1,8 @@
+html, body, .faq {
+    margin: 0;
+    height: 100%;
+}
+
 .nav {
     position: sticky;
     display: flex;

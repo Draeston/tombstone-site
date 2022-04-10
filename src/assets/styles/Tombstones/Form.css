@@ -1,0 +1,27 @@
+.order-form {
+  text-align: center;
+}
+
+.form-name,
+.form-phone,
+.form-submit,
+.form-item-name,
+.form-img {
+  display: block;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-submit {
+  border-radius: 20px;
+  background: #005bff;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+}
+
+.form-img {
+  display: block;
+  width: 70%;
+}
