@@ -1,13 +1,32 @@
 import styles from "../../assets/styles/Landing/Info.module.css";
+import React from "react";
 
-export function Info() {
+export function Info({ text, isReverted = true, image }) {
   return (
     <div className={styles.info}>
-      <p className={styles.infoText}>
-        We are glad to help the customers to decide and design proper and cheap
-        product that will delivered their waits as fast as possible and to avoid
-        any difficulties that can occur.
-      </p>
+      {isReverted ? (
+        <React.Fragment>
+          <span className={styles.infoTextRight}>{text}</span>
+          <div className={styles.imgWrapper}>
+            <img
+              className={styles.tombImg}
+              src={require(`../../assets/images/Landing/Info/${image}`)}
+              alt=""
+            />
+          </div>
+        </React.Fragment>
+      ) : (
+        <React.Fragment>
+          <div className={styles.imgWrapper}>
+            <img
+              className={styles.tombImg}
+              src={require(`../../assets/images/Landing/Info/${image}`)}
+              alt=""
+            />
+          </div>
+          <span className={styles.infoText}>{text}</span>
+        </React.Fragment>
+      )}
     </div>
   );
 }

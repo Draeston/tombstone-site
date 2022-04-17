@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot about us 1`] = `
+<div>
+  <div
+    className="hero"
+  >
+    <p
+      className="heroText"
+    >
+      We decided to help our customers and support them durring the whole process of such ridiculous situation
+    </p>
+  </div>
+  <div
+    className="info"
+  >
+    <p
+      className="infoText"
+    >
+      We are glad to help the customers to decide and design proper and cheap product that will delivered their waits as fast as possible and to avoid any difficulties that can occur.
+    </p>
+  </div>
+</div>
+`;

@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing tombstone card 1`] = `
+<div
+  className="card"
+>
+  <div>
+    <img
+      alt=""
+      className="img"
+      src="1.png"
+    />
+  </div>
+  <p
+    className="title"
+  >
+    Tombstone
+  </p>
+  <p
+    className="price"
+  >
+    800Р
+  </p>
+  <button
+    className="button"
+    onClick={[Function]}
+    type="button"
+  >
+    Make an order
+  </button>
+</div>
+`;

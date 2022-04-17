@@ -17,3 +17,11 @@
     color: white;
     text-align: center;
 }
+
+.heroTitle {
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    letter-spacing: 8px;
+}

@@ -1,60 +1,13 @@
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import { createServer } from "miragejs";
+import makeServer from "./functions/makeServer";
 
 import { Landing } from "./pages/Landing";
 import { FAQ } from "./pages/FAQ";
 import { AboutUs } from "./pages/AboutUs";
 import { Tombstones } from "./pages/Tombstones";
 
-const server = createServer();
-server.get("/api/tombstones", {
-  tombstones: [
-    {
-      id: 1,
-      img: "1.png",
-      title: "Tombstone",
-      price: "8000Р",
-    },
-    {
-      id: 2,
-      img: "2.png",
-      title: "Tombstone",
-      price: "8000Р",
-    },
-    {
-      id: 3,
-      img: "3.png",
-      title: "Tombstone",
-      price: "8000Р",
-    },
-    {
-      id: 4,
-      img: "4.png",
-      title: "Tombstone",
-      price: "8000Р",
-    },
-    {
-      id: 5,
-      img: "5.png",
-      title: "Tombstone",
-      price: "8000Р",
-    },
-    {
-      id: 6,
-      img: "6.jpg",
-      title: "Tombstone",
-      price: "8000Р",
-    },
-    {
-      id: 7,
-      img: "7.jpg",
-      title: "Tombstone",
-      price: "8000Р",
-    },
-  ],
-});
-server.post("/api/order", () => {});
+makeServer();
 
 function App() {
   return (
@@ -62,6 +15,7 @@ function App() {
       <div>
         <nav className="nav">
           <ul>
+            <li className="nav-logo">TOMBSTONES</li>
             <li>
               <Link to="/">Home</Link>
             </li>

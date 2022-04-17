@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot landing 1`] = `
+<div>
+  <div
+    className="hero"
+  >
+    <h1
+      className="heroTitle"
+    >
+      TOMBSTONES
+    </h1>
+    <p
+      className="heroText"
+    >
+      This web-site was designed to serve the purpose for fast decision process on gravestone selection
+    </p>
+  </div>
+  <div
+    className="info"
+  >
+    <div
+      className="imgWrapper"
+    >
+      <img
+        alt=""
+        className="tombImg"
+        src="1.png"
+      />
+    </div>
+    <span
+      className="infoText"
+    >
+      We are glad to help the customers to decide and design proper and cheap product that will delivered their waits as fast as possible and to avoid any difficulties that can occur.
+    </span>
+  </div>
+  <div
+    className="info"
+  >
+    <span
+      className="infoTextRight"
+    >
+      Our tombstones are really of high quality and we will make sure it will not be destroyed in 5-10 years
+    </span>
+    <div
+      className="imgWrapper"
+    >
+      <img
+        alt=""
+        className="tombImg"
+        src="2.png"
+      />
+    </div>
+  </div>
+  <div
+    className="info"
+  >
+    <div
+      className="imgWrapper"
+    >
+      <img
+        alt=""
+        className="tombImg"
+        src="3.png"
+      />
+    </div>
+    <span
+      className="infoText"
+    >
+      We will make sure that your buried will rest in the ground calmly
+    </span>
+  </div>
+  <div
+    className="make-order"
+  >
+    <h1
+      className="make-order-title"
+    >
+      JOIN US!
+    </h1>
+    <a
+      aria-current={null}
+      className="make-order-button"
+      href="/tombstones"
+      onClick={[Function]}
+    >
+      List of tombstones
+    </a>
+  </div>
+</div>
+`;

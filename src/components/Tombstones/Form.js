@@ -24,7 +24,7 @@ export function Form(props) {
 
   function onSubmit(event) {
     event.preventDefault();
-    if (phone.length !== 18) {
+    if (phone.indexOf("_") !== -1 || phone === "") {
       return;
     }
     if (name === "") {
@@ -50,8 +50,8 @@ export function Form(props) {
   return (
     <form onSubmit={onSubmit} className="order-form">
       <h1 className="form-title">Make an order</h1>
-      <h2 className="form-item-name">{props.title}</h2>
-      <h2 className="form-item-name">{props.price}</h2>
+      <h2 className="form-item-name">Name: {props.title}</h2>
+      <h2 className="form-item-name">Price: {props.price}</h2>
       <img
         className="form-img"
         src={require(`../../assets/images/tombstones/${props.img}`)}

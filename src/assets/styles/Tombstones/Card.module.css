@@ -1,13 +1,18 @@
+/*noinspection CssUnknownTarget*/
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@200;300;400&display=swap");
+
 .card {
+  font-family: "IBM Plex Sans Arabic", sans-serif;
   padding: 10px;
-  margin-right: 1%;
-  margin-top: 30px;
+  margin-right: 3%;
+  margin-top: 40px;
   display: inline-block;
   text-align: center;
 
   width: 30%;
   background: white;
   box-shadow: black 5px 5px 20px;
+  border-radius: 2px;
 }
 
 .img {
@@ -16,23 +21,28 @@
 }
 
 .title {
-  font-family: sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
   font-size: 24px;
   font-weight: 400;
 }
 
 .price {
-  font-family: sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
   font-size: 32px;
   font-weight: 400;
 }
 
 .button {
+  font-family: "IBM Plex Sans Arabic", sans-serif;
   border-radius: 20px;
   background: #005bff;
   padding: 10px 20px;
   color: white;
   border: none;
+  margin-top: 10px;
+
+  font-size: 18px;
+  cursor: pointer;
 }
 
 .button:hover {

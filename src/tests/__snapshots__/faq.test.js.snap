@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot faq 1`] = `
+<div
+  className="faq"
+>
+  <div
+    className="block"
+  >
+    <h1
+      className="title"
+    >
+      FAQ
+    </h1>
+  </div>
+  <div
+    className="qa-block"
+  >
+    <p
+      className="question"
+    >
+      What are you doing here??
+    </p>
+    <p
+      className="answer"
+    >
+      This site is designed to sell custom tombstone designs. Just imagine how sad it would be if your tombstone will not show your artistic and aesthetic preferences. With our site, you would not have to worry about all that stuff and may enjoy your afterlife with the tombstone of your choice.
+    </p>
+  </div>
+  <div
+    className="qa-block"
+  >
+    <p
+      className="question"
+    >
+      Is it a real tombstone?
+    </p>
+    <p
+      className="answer"
+    >
+      Yes, it does not get more real than ours! Buying from us, you will get a first class marble tombstone.
+    </p>
+  </div>
+  <div
+    className="qa-block"
+  >
+    <p
+      className="question"
+    >
+      Can you deliver it to my place??
+    </p>
+    <p
+      className="answer"
+    >
+      Yes, as long as you will pay for it!
+    </p>
+  </div>
+  <div
+    className="qa-block"
+  >
+    <p
+      className="question"
+    >
+      And what if I change my mind?
+    </p>
+    <p
+      className="answer"
+    >
+      For that, you will get a 5% discount on a new tombstone design. However, we are working on a subscription model where you could pay every month and have your tombstone design ready for you to pass away.
+    </p>
+  </div>
+</div>
+`;

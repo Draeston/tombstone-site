@@ -1,14 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300;1,400&display=swap');
 
+.qa-block {
+    background: white;
+    padding: 20px;
+    width: 80%;
+    margin: 25px auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px 7px 5px rgba(255, 255, 255, 0.36);
+}
+
 .question {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
-    color: white;
+    color: black;
 }
 
 .answer {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
-    color: white;
-    margin-bottom: 30px;
+    color: black;
 }
